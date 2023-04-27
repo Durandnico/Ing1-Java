@@ -1,3 +1,5 @@
+import formes_geometrique.Carre;
+
 public class testForm{
 
     public static void main(String[] args) {
