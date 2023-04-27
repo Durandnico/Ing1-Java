@@ -1,4 +1,8 @@
+package formes_geometrique;
+
 import formes_geometrique.Carre;
+import formes_geometrique.Cercle;
+import formes_geometrique.Forme;
 
 public class testForm{
 

@@ -1,9 +1,9 @@
-import javax.swing.text.Caret;
+package formes_geometrique;
 
-public class Carre implements Forme{
+public class Carre implements Forme {
     private float len;
 
-    Carre(float ln){
+    public Carre(float ln){
         len = ln;
     }
 

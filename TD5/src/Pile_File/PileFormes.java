@@ -1,2 +1,25 @@
-package Pile_File;public interface PileFormes {
+package Pile_File;
+
+import formes_geometrique.*;
+
+public interface PileFormes {
+    void empiler(Forme f);
+
+    Forme depiler();
+
+    int taille();
+
+    void vider();
+
+    boolean estVide();
+
+    boolean estPleine();
+
+    Forme sommet();
+
+    void afficher();
+
+    public int getTaille_max();
+
+
 }

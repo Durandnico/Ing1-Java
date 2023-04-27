@@ -1,7 +1,9 @@
+package formes_geometrique;
+
 public class Cercle implements Forme {
     private float radius;
 
-    Cercle(float rad){
+    public Cercle(float rad){
         radius = rad;
     }
 
